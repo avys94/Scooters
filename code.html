@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Málaga Scooter Workshop</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { 'colors': { 'surface-container-low': '#1c1b1d', 'on-surface': '#e5e1e4', 'secondary-container': '#47464a', 'inverse-primary': '#b91a24', 'primary-fixed': '#ffdad7', 'on-tertiary-container': '#00302e', 'surface-container-high': '#2a2a2c', 'surface-variant': '#353437', 'surface': '#131315', 'on-primary-container': '#5c0008', 'on-tertiary-fixed': '#00201f', 'surface-container': '#201f22', 'on-error': '#690005', 'surface-tint': '#ffb3ad', 'surface-container-lowest': '#0e0e10', 'inverse-on-surface': '#313032', 'on-primary-fixed-variant': '#930013', 'background': '#131315', 'on-primary': '#68000a', 'primary-fixed-dim': '#ffb3ad', 'tertiary-fixed': '#87f4f0', 'surface-container-highest': '#353437', 'error-container': '#93000a', 'inverse-surface': '#e5e1e4', 'surface-bright': '#39393b', 'primary-container': '#ff5451', 'tertiary-fixed-dim': '#69d8d4', 'tertiary-container': '#24a09d', 'primary': '#ffb3ad', 'surface-dim': '#131315', 'on-background': '#e5e1e4', 'on-primary-fixed': '#410004', 'secondary-fixed': '#e4e1e5', 'secondary-fixed-dim': '#c8c6c9', 'secondary': '#c8c6c9', 'outline': '#ab8986', 'on-surface-variant': '#e4beba', 'on-secondary-fixed': '#1b1b1e', 'on-secondary-container': '#b6b4b8', 'on-secondary': '#303033', 'error': '#ffb4ab', 'on-tertiary-fixed-variant': '#00504e', 'outline-variant': '#5b403e', 'on-tertiary': '#003736', 'on-secondary-fixed-variant': '#47464a', 'on-error-container': '#ffdad6', 'tertiary': '#69d8d4' }, 'borderRadius': { 'DEFAULT': '0.125rem', 'lg': '0.25rem', 'xl': '0.5rem', 'full': '0.75rem' }, 'spacing': { 'space-md': '1rem', 'space-xs': '0.25rem', 'space-3xl': '6rem', 'margin-mobile': '1.25rem', 'margin': '2rem', 'gutter': '1.5rem', 'space-2xl': '4rem', 'space-lg': '1.5rem', 'space-xl': '2.5rem', 'gutter-mobile': '1rem', 'space-sm': '0.5rem' }, 'fontFamily': { 'headline-sm': ['Space Grotesk'], 'body-lg': ['Inter'], 'body-md': ['Inter'], 'label-lg': ['Space Grotesk'], 'headline-lg-mobile': ['Space Grotesk'], 'label-md': ['Space Grotesk'], 'display-mobile': ['Space Grotesk'], 'display': ['Space Grotesk'], 'label-sm': ['Space Grotesk'], 'headline-md': ['Space Grotesk'], 'body-sm': ['Inter'], 'headline-lg': ['Space Grotesk'] }, 'fontSize': { 'headline-sm': ['1.25rem', { 'lineHeight': '1.3', 'letterSpacing': '-0.01em', 'fontWeight': '600' }], 'body-lg': ['1.125rem', { 'lineHeight': '1.6', 'letterSpacing': '0em', 'fontWeight': '400' }], 'body-md': ['1rem', { 'lineHeight': '1.5', 'letterSpacing': '0em', 'fontWeight': '400' }], 'label-lg': ['0.875rem', { 'lineHeight': '1', 'letterSpacing': '0.06em', 'fontWeight': '600' }], 'headline-lg-mobile': ['1.875rem', { 'lineHeight': '1.2', 'letterSpacing': '-0.02em', 'fontWeight': '700' }], 'label-md': ['0.75rem', { 'lineHeight': '1', 'letterSpacing': '0.08em', 'fontWeight': '600' }], 'display-mobile': ['2.75rem', { 'lineHeight': '1.1', 'letterSpacing': '-0.03em', 'fontWeight': '700' }], 'display': ['4rem', { 'lineHeight': '1.05', 'letterSpacing': '-0.04em', 'fontWeight': '700' }], 'label-sm': ['0.6875rem', { 'lineHeight': '1', 'letterSpacing': '0.1em', 'fontWeight': '500' }], 'headline-md': ['1.75rem', { 'lineHeight': '1.25', 'letterSpacing': '-0.02em', 'fontWeight': '600' }], 'body-sm': ['0.875rem', { 'lineHeight': '1.45', 'letterSpacing': '0.01em', 'fontWeight': '400' }], 'headline-lg': ['2.5rem', { 'lineHeight': '1.15', 'letterSpacing': '-0.03em', 'fontWeight': '700' }] } } } };</script></head><body class="bg-surface text-on-surface font-body-md text-body-md selection:bg-primary selection:text-on-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="Málaga Scooter Workshop Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAVFPF1bLEY5KLCOM-G6gotGCnphbCUWxHvP37mOugwSZbsNVlnW5_7b4K-RtY4XGD5aNtSlwLivFG2b1Oj90egrAJeniFXdtjLGVpm5SUm4IjPT80fYcalE7IL3Ot8nBRNtr_o7r-yDM22MEW4DID8gmf9CQnBKW8_6ryorzuoep2I7TnGcDTc-Mi9DLmsiRnyQWoSDNm5Q7RKVNu0ZNEUKrI25drvQ52-6EgPz37c"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface">Málaga Scooter</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold">Taller Oficial</span></div></div><div class="hidden xl:flex items-center gap-space-lg"><div class="flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-lg"><span class="h-2 w-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-md text-label-md uppercase text-on-surface">Málaga Centro</span></div><div class="flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-lg"><span class="font-label-md text-label-md uppercase text-tertiary-fixed">Urgencias 24h</span><span class="font-label-md text-label-md text-on-surface-variant font-body-sm">WhatsApp &amp; Teléfono</span></div></div><nav class="hidden md:flex items-center gap-space-md" data-active-classes="bg-primary-container text-on-primary-container font-bold rounded-lg"><a class="font-label-lg text-label-lg uppercase px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="servicios-y-tarifas" href="#">Servicios</a><a class="font-label-lg text-label-lg uppercase px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="diagnostico-express" href="#">Diagnóstico</a><a class="font-label-lg text-label-lg uppercase px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="taller-y-ubicacion" href="#">Ubicación</a></nav><div class="flex items-center gap-space-md"><a class="inline-flex items-center justify-center bg-primary-container text-on-primary-container hover:bg-inverse-primary hover:text-on-surface font-label-lg text-label-lg uppercase tracking-wider px-space-lg py-space-sm rounded-lg shadow-[0_0_16px_rgba(255,84,81,0.35)] transition-all" href="#pedir-cita">Pedir Cita Gratis</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Flash Banner Bar -->
+<aside aria-label="Aviso de promoción activa" class="w-full bg-surface-container-lowest py-space-xs px-margin-mobile lg:px-margin text-center">
+<div class="max-w-7xl mx-auto flex items-center justify-center gap-space-sm flex-wrap text-secondary">
+<span class="inline-flex items-center gap-1.5 text-primary font-label-sm uppercase font-semibold tracking-wider">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+        Campana Primavera 2025
+      </span>
+<span class="text-secondary-container">|</span>
+<p class="font-body-sm text-body-sm text-secondary">
+        Quedan <strong class="text-on-surface font-semibold text-primary">7 plazas gratuitas</strong> esta semana para revision completa sin coste en Calle Carreteria
+      </p>
+</div>
+</aside>
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface py-space-2xl lg:py-space-3xl">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Column: Copy & High-Impact CTA -->
+<div class="lg:col-span-7 flex flex-col items-start gap-space-lg">
+<!-- Official Tag Badge -->
+<div class="inline-flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-primary-container text-[18px]">bolt</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">
+              TALLER OFICIAL MULTIMARCA EN MÁLAGA · PROMO NUEVOS CLIENTES
+            </span>
+</div>
+<!-- Main H1 Headline -->
+<h1 class="font-display text-headline-lg-mobile lg:text-display text-on-surface uppercase tracking-tight">
+            Muévete por Málaga <span class="text-primary-container">ahorrando:</span> tu primera revisión corre de nuestra cuenta.
+          </h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl">
+            Deja de depender de la gasolina y el transporte público. Tu scooter eléctrico, siempre a punto con nuestro taller especializado en Málaga.
+          </p>
+<!-- Primary Conversion Block -->
+<div class="w-full sm:w-auto flex flex-col gap-space-sm">
+<a class="group inline-flex items-center justify-center gap-space-sm bg-primary-container hover:bg-inverse-primary text-on-primary-container hover:text-on-surface font-label-lg text-label-lg uppercase tracking-wider px-space-xl py-space-md rounded-lg shadow-[0_0_24px_rgba(255,84,81,0.4)] transition-all duration-200" href="#formulario-reserva">
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:scale-110">bolt</span>
+<span>Reservar mi revisión gratis</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+<!-- Micro-copy proof points -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-y-1 gap-x-space-md text-secondary font-body-sm text-body-sm pt-space-xs">
+<span class="inline-flex items-center gap-1 text-on-surface">
+<span class="material-symbols-outlined text-tertiary-container text-[16px]">check_circle</span> Sin compromiso ni costes ocultos
+              </span>
+<span class="inline-flex items-center gap-1 text-on-surface">
+<span class="material-symbols-outlined text-tertiary-container text-[16px]">check_circle</span> Diagnóstico en el mismo día
+              </span>
+<span class="inline-flex items-center gap-1 text-on-surface">
+<span class="material-symbols-outlined text-tertiary-container text-[16px]">check_circle</span> +1.200 patinetes reparados
+              </span>
+</div>
+</div>
+<!-- Trust Badges Bar / Quick Stats Bento -->
+<div class="w-full grid grid-cols-3 gap-space-sm pt-space-md">
+<div class="bg-surface-container-high p-space-md rounded-lg flex flex-col justify-center">
+<div class="flex items-center gap-1 text-primary-container mb-0.5">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">4.9 / 5</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase text-secondary">340+ Reseñas Google</span>
+</div>
+<div class="bg-surface-container-high p-space-md rounded-lg flex flex-col justify-center">
+<div class="flex items-center gap-1 text-tertiary mb-0.5">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">24 Horas</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase text-secondary">Media de Entrega</span>
+</div>
+<div class="bg-surface-container-high p-space-md rounded-lg flex flex-col justify-center">
+<div class="flex items-center gap-1 text-primary mb-0.5">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">100%</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase text-secondary">Piezas Garantizadas</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Workshop Showcase -->
+<div class="lg:col-span-5 relative flex flex-col gap-space-md">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden shadow-2xl bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Professional mechanic in clean industrial apron servicing an electric scooter in modern high-tech workshop in Malaga Spain, diagnostic monitors in background showing voltage battery levels, vivid red tools and sharp overhead spotlight, realistic cinematic photo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4bzxZaa9tKYFfQCdxYzDURi2OtS5IUal9ug8lMah1JDXFFkJqqIsPgBI0qlNYeM75RvYGTdGZjf1f6jNyJgWMF7WubYkEwEjLb5Gwjyud4M7OdpbL4_G2JheM0KEEf-XEsy-fCCGX2SZy2HyNV3WXbXZWpH8ap5pgmyUe1synOOzVkS3bvWKHqSv98T6Ykl8hmhH9FFU1-ZfKxY2DJhsq0BNpFwjbebvwT0nWe5Y"/>
+<!-- Live Status HUD Pill -->
+<div class="absolute bottom-space-md left-space-md right-space-md bg-surface-container-lowest/90 backdrop-blur-md p-space-md rounded-lg flex items-center justify-between shadow-lg">
+<div class="flex items-center gap-space-sm">
+<span class="w-3 h-3 rounded-full bg-tertiary-container animate-pulse"></span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase text-on-surface font-semibold">Taller Abierto en Málaga Centro</span>
+<span class="font-body-sm text-body-sm text-secondary">Box 2 y Box 4 disponibles para inspección</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm uppercase bg-primary-container text-on-primary-container px-space-sm py-1 rounded font-bold">0€ Diagnóstico</span>
+</div>
+</div>
+<!-- Secondary Micro-Image Grid with Local Focus -->
+<div class="grid grid-cols-2 gap-space-md">
+<div class="relative h-28 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Close up precision diagnostic equipment measuring electric scooter battery voltage in high tech dark garage, digital multimeter reading numbers, sharp focus on mechanical connectors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQDE574P8u86ibdVSx6Gv4ZJ300xALGNp9qbSnSk70KKRVlSeMIiCAUfLUmsfeO6Ve8YhNiSuOu1nyMXoyL6hQxk1jvsRxOf4ax2ErmRm9RYH149S56pvsLdpOqje2-oF4BqZuNcIAgr_jTsWxm2cdsTlz3QhShSopzpvVIBXtjZXVIdvbjIge7oK-Kvv2Xf6TlILNIJbgbfBRVPBQ21-lbKwnpUNBhDkRuI1k2zA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/90 to-transparent flex items-end p-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface uppercase font-bold">Test de Batería BMS</span>
+</div>
+</div>
+<div class="relative h-28 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Electric scooter brake caliper and hydraulic disc pad adjustment by technician hands wearing safety gloves, workshop tools background, dark mechanical aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7RmTtlR7hfiUb1w_x1gUBi0joyA59b8RuFvhdUVOHBlMIxKj0HbBuAtxLNS_fR4xCeRp9VFAPLP4WFPW9Sr32vddkpTsMimz4unsAFF41VSr3NyuwdcEXyzSEUtVjEYkbGdziHVhHodTOSS3aCUsN4EwE9LvZSOIDPBiuVP4V3lT73pgQibUryWidzV_bpyqygqV9C5adGBBpA95jcx2tJr4oJLLA67xLjvJw5g0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/90 to-transparent flex items-end p-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface uppercase font-bold">Calibrado de Frenos</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: THE PROBLEM (ALTO CONTRASTE) -->
+<section class="w-full bg-surface-container-lowest py-space-2xl lg:py-space-3xl">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="max-w-3xl mb-space-2xl">
+<div class="inline-flex items-center gap-space-xs text-primary-container font-label-md text-label-md uppercase tracking-wider mb-space-sm">
+<span class="material-symbols-outlined text-[18px]">warning</span>
+<span>La Realidad del Transporte en Málaga</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface uppercase tracking-tight mb-space-md">
+          ¿Harto de depender de un coche o una moto que no te puedes permitir?
+        </h2>
+<p class="font-body-lg text-body-lg text-secondary">
+          Mantener un vehículo tradicional se ha vuelto insostenible. El patinete eléctrico es tu solución, pero ¿qué pasa cuando falla? Los talleres genéricos tardan semanas y los recambios baratos te dejan tirado. No arriesgues tu transporte diario.
+        </p>
+</div>
+<!-- 3 Frequent Problem Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Problem 1: Punctures -->
+<div class="bg-surface-container p-space-lg rounded-xl flex flex-col justify-between hover:bg-surface-container-high transition-colors shadow-md">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[28px]">tire_repair</span>
+</div>
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase bg-surface-variant text-primary px-space-xs py-0.5 rounded font-bold">Falla #1 en Málaga</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-space-sm">
+              Pinchazos Constantes
+            </h3>
+<p class="font-body-sm text-body-sm text-secondary">
+              Adoquines del Centro, obras continuas y pavimento irregular desgastan las cámaras de serie en menos de 200 km. Cambiamos a neumáticos macizos o sellado antipinchazos definitivo.
+            </p>
+</div>
+<div class="mt-space-md pt-space-md bg-surface-container-lowest/50 p-space-sm rounded">
+<span class="font-label-sm text-label-sm text-on-surface uppercase font-bold text-error">Consecuencia:</span>
+<p class="font-body-sm text-body-sm text-secondary">Llegar tarde al trabajo y arrastrar 15 kg a pie bajo el sol.</p>
+</div>
+</div>
+<!-- Problem 2: Battery Degradation -->
+<div class="bg-surface-container p-space-lg rounded-xl flex flex-col justify-between hover:bg-surface-container-high transition-colors shadow-md">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[28px]">battery_alert</span>
+</div>
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase bg-surface-variant text-primary px-space-xs py-0.5 rounded font-bold">Degradación Crítica</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-space-sm">
+              Pérdida Repentina de Batería
+            </h3>
+<p class="font-body-sm text-body-sm text-secondary">
+              El calor del asfalto malagueño y las pendientes pronunciadas de Pedregalejo o Teatinos descompensan las celdas de litio, provocando apagones inesperados con el marcador al 40%.
+            </p>
+</div>
+<div class="mt-space-md pt-space-md bg-surface-container-lowest/50 p-space-sm rounded">
+<span class="font-label-sm text-label-sm text-on-surface uppercase font-bold text-error">Consecuencia:</span>
+<p class="font-body-sm text-body-sm text-secondary">Patinete muerto a mitad de camino y costes de sustitución disparados.</p>
+</div>
+</div>
+<!-- Problem 3: Brake Failure -->
+<div class="bg-surface-container p-space-lg rounded-xl flex flex-col justify-between hover:bg-surface-container-high transition-colors shadow-md">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[28px]">speed</span>
+</div>
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase bg-surface-variant text-primary px-space-xs py-0.5 rounded font-bold">Peligro Inminente</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-space-sm">
+              Frenos Desgastados
+            </h3>
+<p class="font-body-sm text-body-sm text-secondary">
+              Discos desalineados y pastillas cristalizadas que alargan tu frenada hasta 6 metros en bajadas con tráfico urbano y peatones en cruces concurridos de la ciudad.
+            </p>
+</div>
+<div class="mt-space-md pt-space-md bg-surface-container-lowest/50 p-space-sm rounded">
+<span class="font-label-sm text-label-sm text-on-surface uppercase font-bold text-error">Consecuencia:</span>
+<p class="font-body-sm text-body-sm text-secondary">Riesgo inasumible de colisión grave frente a coches y buses de la EMT.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: THE SOLUTION & WORKBENCH -->
+<section class="w-full bg-surface py-space-2xl lg:py-space-3xl">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Visual: Workshop Photo + Multi-brand Compatibility -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="relative w-full aspect-video rounded-xl overflow-hidden bg-surface-container-lowest shadow-2xl">
+<img class="w-full h-full object-cover" data-alt="Interior of clean specialized scooter repair workshop in Malaga showing professional workbench organized tools battery analyzers and fleet of scooters awaiting testing, red ambient accent LED lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDC55SN6IhBc9k3AP2Dua479uL3vmbpES6FKWYhPdR1sn-612l7lYK0qrDCnm2nXr83B4Pt1NkRlhVV1T-g-4Pvo1TalWkIGp5WMO99dv6eMKlJMpHjbMcFlFELF9u8LbScE1Wj6NpmeGurMXoe2D86n8lJWPHRw-g_bV52LxnemliENs_2By8CpoFREY3ShMvIE6jmIKRdBVb5zXW5K83V8eanNIUIeirOB_cvlNM"/>
+<div class="absolute top-space-md right-space-md bg-surface-container-lowest/90 px-space-md py-space-xs rounded-lg shadow-md">
+<span class="font-label-md text-label-md uppercase text-primary font-bold">Laboratorio BMS Propio</span>
+</div>
+</div>
+<!-- Multi-Brand Chip Cloud -->
+<div class="bg-surface-container p-space-md rounded-xl">
+<span class="font-label-sm text-label-sm uppercase text-secondary block mb-space-sm">Marcas con soporte oficial y stock de repuestos inmediato:</span>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase px-space-md py-1 rounded">Xiaomi (Todos los modelos)</span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase px-space-md py-1 rounded">SmartGyro Series</span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase px-space-md py-1 rounded">Cecotec Bongo</span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase px-space-md py-1 rounded">Segway-Ninebot</span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase px-space-md py-1 rounded">Dualtron / Minimotors</span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase px-space-md py-1 rounded">Kugoo Kirin</span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase px-space-md py-1 rounded">Nami Burn-E</span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase px-space-md py-1 rounded">Kaabo Mantis</span>
+</div>
+</div>
+</div>
+<!-- Right Content: Technical authority -->
+<div class="lg:col-span-6 flex flex-col items-start gap-space-md">
+<div class="inline-flex items-center gap-space-xs text-primary-container font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-[18px]">build_circle</span>
+<span>La Alternativa Profesional en la Costa del Sol</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface uppercase tracking-tight">
+            Tu taller y tienda de confianza en el corazón de Málaga.
+          </h2>
+<p class="font-body-lg text-body-lg text-secondary">
+            Nos especializamos exclusivamente en scooters eléctricos. Te ofrecemos soluciones rápidas, recambios de calidad y un servicio técnico que responde sin excusas.
+          </p>
+<!-- Technical Capabilities List -->
+<div class="w-full flex flex-col gap-space-sm pt-space-xs">
+<div class="flex items-start gap-space-md bg-surface-container-low p-space-md rounded-lg">
+<span class="material-symbols-outlined text-primary-container text-[24px]">troubleshoot</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface uppercase">Diagnóstico Electrónico Computarizado</h4>
+<p class="font-body-sm text-body-sm text-secondary">Leemos los códigos de error exactos de tu centralita (ESC) y comprobamos la salud real de cada celda de tu batería.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-md bg-surface-container-low p-space-md rounded-lg">
+<span class="material-symbols-outlined text-primary-container text-[24px]">inventory_2</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface uppercase">Stock Permanente en Centro de Málaga</h4>
+<p class="font-body-sm text-body-sm text-secondary">Sin esperar 20 días a paqueterías de Asia. Disponemos de más de 400 referencias originales y reforzadas en tienda.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-md bg-surface-container-low p-space-md rounded-lg">
+<span class="material-symbols-outlined text-primary-container text-[24px]">electric_scooter</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface uppercase">Mecánica Preventiva Inmediata</h4>
+<p class="font-body-sm text-body-sm text-secondary">Ajuste de holguras de mástil, engrase de rodamientos sellados y calibración de potencia para un viaje suave y seguro.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: THREE CORE BENEFITS -->
+<section class="w-full bg-surface-container-lowest py-space-2xl lg:py-space-3xl">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center max-w-3xl mx-auto mb-space-2xl">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary-container block mb-space-xs">
+          Ventajas Exclusivas
+        </span>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface uppercase tracking-tight">
+          Por qué elegir nuestro taller especializado
+        </h2>
+</div>
+<!-- 3 Key Benefit Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Benefit 1 -->
+<div class="relative bg-surface-container p-space-xl rounded-xl flex flex-col justify-between shadow-lg overflow-hidden">
+<div class="absolute top-0 right-0 bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase px-space-md py-1 rounded-bl-lg font-bold">
+            0€ PROMO EXCLUSIVA
+          </div>
+<div>
+<div class="w-14 h-14 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container mb-space-lg">
+<span class="material-symbols-outlined text-[32px]">featured_seasonal_and_gifts</span>
+</div>
+<h3 class="font-headline-md text-headline-md uppercase text-on-surface mb-space-sm">
+              Primera revisión gratis
+            </h3>
+<p class="font-body-md text-body-md text-secondary">
+              Diagnóstico completo de frenos, motor y batería sin coste para nuevos clientes.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center gap-space-xs text-primary font-label-md text-label-md uppercase">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Incluye informe técnico digital</span>
+</div>
+</div>
+<!-- Benefit 2 -->
+<div class="relative bg-surface-container p-space-xl rounded-xl flex flex-col justify-between shadow-lg overflow-hidden">
+<div class="absolute top-0 right-0 bg-secondary-container text-on-surface font-label-sm text-label-sm uppercase px-space-md py-1 rounded-bl-lg font-bold">
+            GARANTÍA TOTAL
+          </div>
+<div>
+<div class="w-14 h-14 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container mb-space-lg">
+<span class="material-symbols-outlined text-[32px]">shield</span>
+</div>
+<h3 class="font-headline-md text-headline-md uppercase text-on-surface mb-space-sm">
+              Garantía y compromiso
+            </h3>
+<p class="font-body-md text-body-md text-secondary">
+              Respaldamos cada intervención por escrito. Si algo falla, respondemos.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center gap-space-xs text-tertiary-fixed font-label-md text-label-md uppercase">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span>6 meses en mano de obra y piezas</span>
+</div>
+</div>
+<!-- Benefit 3 -->
+<div class="relative bg-surface-container p-space-xl rounded-xl flex flex-col justify-between shadow-lg overflow-hidden">
+<div class="absolute top-0 right-0 bg-secondary-container text-on-surface font-label-sm text-label-sm uppercase px-space-md py-1 rounded-bl-lg font-bold">
+            UBICACIÓN CÉNTRICA
+          </div>
+<div>
+<div class="w-14 h-14 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container mb-space-lg">
+<span class="material-symbols-outlined text-[32px]">pin_drop</span>
+</div>
+<h3 class="font-headline-md text-headline-md uppercase text-on-surface mb-space-sm">
+              Taller local en Málaga
+            </h3>
+<p class="font-body-md text-body-md text-secondary">
+              Trato directo, sin intermediarios ni esperas innecesarias.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center gap-space-xs text-on-surface font-label-md text-label-md uppercase">
+<span class="material-symbols-outlined text-primary text-[18px]">directions_walk</span>
+<span>A 3 min de Plaza de la Constitución</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: PRUEBA SOCIAL / REVIEWS -->
+<section class="w-full bg-surface py-space-2xl lg:py-space-3xl">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+<!-- Social Proof Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-lg mb-space-2xl">
+<div class="max-w-2xl">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary-container block mb-space-xs">
+            Opiniones Reales de Clientes
+          </span>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface uppercase tracking-tight mb-space-sm">
+            La confianza se demuestra con hechos.
+          </h2>
+<p class="font-body-md text-body-md text-secondary">
+            Reseñas reales de clientes y conductores urbanos en Málaga.
+          </p>
+</div>
+<div class="flex items-center gap-space-md bg-surface-container-high px-space-lg py-space-md rounded-xl shadow-sm self-start md:self-auto">
+<div class="flex flex-col">
+<div class="flex items-center gap-1 text-primary-container">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">4.9 / 5.0</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase text-secondary">Valoración en Google</span>
+</div>
+<div class="w-px h-10 bg-outline-variant"></div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase text-tertiary-fixed font-bold">Taller Verificado</span>
+<span class="font-label-sm text-label-sm uppercase text-secondary">Málaga 2025</span>
+</div>
+</div>
+</div>
+<!-- 3 Testimonial Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Review 1: Carlos M. -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col justify-between shadow-md">
+<div>
+<div class="flex items-center gap-1 text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-space-lg">
+              "Me quedé sin frenos bajando hacia El Palo y en 24h me lo dejaron perfecto. La revisión gratuita me ahorró un susto grande."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md">
+<div class="w-10 h-10 rounded-full bg-surface-variant flex items-center justify-center font-headline-sm text-headline-sm text-primary uppercase">
+              C
+            </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Carlos M.</span>
+<span class="font-label-sm text-label-sm text-secondary">Teatinos, Málaga</span>
+</div>
+</div>
+</div>
+<!-- Review 2: Lucía R. -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col justify-between shadow-md">
+<div>
+<div class="flex items-center gap-1 text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-space-lg">
+              "Uso el patinete a diario para trabajar. Son los únicos en Málaga que no te marean con los recambios y te dan garantía por escrito."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md">
+<div class="w-10 h-10 rounded-full bg-surface-variant flex items-center justify-center font-headline-sm text-headline-sm text-primary uppercase">
+              L
+            </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Lucía R.</span>
+<span class="font-label-sm text-label-sm text-secondary">Centro Histórico, Málaga</span>
+</div>
+</div>
+</div>
+<!-- Review 3: Javier G. -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col justify-between shadow-md">
+<div>
+<div class="flex items-center gap-1 text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-space-lg">
+              "Trato de 10. Diagnóstico honesto, sin intentar colarte cosas de más. Taller de confianza absoluta."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md">
+<div class="w-10 h-10 rounded-full bg-surface-variant flex items-center justify-center font-headline-sm text-headline-sm text-primary uppercase">
+              J
+            </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-semibold">Javier G.</span>
+<span class="font-label-sm text-label-sm text-secondary">Huelin, Málaga</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: FORMULARIO Y CIERRE (HIGH-CONVERSION LEAD FUNNEL) -->
+<section class="w-full bg-surface-container-lowest py-space-2xl lg:py-space-3xl scroll-mt-24" id="formulario-reserva">
+<div class="max-w-4xl mx-auto px-margin-mobile lg:px-margin">
+<!-- High Impact Lead Form Box -->
+<div class="relative bg-surface-container p-space-lg sm:p-space-2xl rounded-2xl shadow-[0_0_40px_rgba(255,84,81,0.25)]">
+<!-- Header of Form -->
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<div class="inline-flex items-center gap-space-xs bg-surface-variant px-space-md py-space-xs rounded-lg text-primary font-label-md text-label-md uppercase font-bold mb-space-sm">
+<span class="material-symbols-outlined text-[18px]">event_available</span>
+<span>Cita Online Prioritaria</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface uppercase tracking-tight mb-space-xs">
+            Asegura la puesta a punto de tu patinete hoy.
+          </h2>
+<p class="font-body-md text-body-md text-primary font-medium">
+            Plazas limitadas por semana para revisión diagnóstica gratuita completa.
+          </p>
+</div>
+<!-- The Booking Form -->
+<form class="flex flex-col gap-space-md" onsubmit="handleFormSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Full Name -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md uppercase text-secondary" for="lead-name">
+                Nombre y Apellidos *
+              </label>
+<input class="h-12 w-full px-space-md rounded-lg bg-surface-container-lowest text-on-surface font-body-md placeholder:text-secondary-container focus:outline-none focus:ring-2 focus:ring-primary-container shadow-inner" id="lead-name" placeholder="Ej. Alejandro Navarro" required="" type="text"/>
+</div>
+<!-- Phone Number (Critical for Mobile Conversion) -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md uppercase text-secondary" for="lead-phone">
+                Teléfono / WhatsApp *
+              </label>
+<input class="h-12 w-full px-space-md rounded-lg bg-surface-container-lowest text-on-surface font-body-md placeholder:text-secondary-container focus:outline-none focus:ring-2 focus:ring-primary-container shadow-inner" id="lead-phone" placeholder="600 000 000" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Email -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md uppercase text-secondary" for="lead-email">
+                Correo Electrónico *
+              </label>
+<input class="h-12 w-full px-space-md rounded-lg bg-surface-container-lowest text-on-surface font-body-md placeholder:text-secondary-container focus:outline-none focus:ring-2 focus:ring-primary-container shadow-inner" id="lead-email" placeholder="tu.correo@ejemplo.com" required="" type="email"/>
+</div>
+<!-- Scooter Brand Selector -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md uppercase text-secondary" for="lead-brand">
+                Marca de tu patinete (Opcional)
+              </label>
+<select class="h-12 w-full px-space-md rounded-lg bg-surface-container-lowest text-on-surface font-body-md focus:outline-none focus:ring-2 focus:ring-primary-container shadow-inner" id="lead-brand">
+<option class="text-secondary-container" disabled="" selected="" value="">Selecciona la marca</option>
+<option value="Xiaomi">Xiaomi</option>
+<option value="Smartgyro">SmartGyro</option>
+<option value="Ninebot">Segway-Ninebot</option>
+<option value="Cecotec">Cecotec Bongo</option>
+<option value="Dualtron">Dualtron / Minimotors</option>
+<option value="Otra">Otra Marca</option>
+</select>
+</div>
+</div>
+<!-- Symptom / Quick note radio-style chips -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<span class="font-label-md text-label-md uppercase text-secondary">¿Qué síntoma notas principalmente?</span>
+<div class="flex flex-wrap gap-2 pt-1">
+<label class="cursor-pointer">
+<input class="peer sr-only" name="symptom" type="checkbox" value="Frenos"/>
+<span class="inline-block px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-secondary font-label-sm text-label-sm uppercase peer-checked:bg-primary-container peer-checked:text-on-primary-container transition-all">
+                  Frenos flojos / Chirrido
+                </span>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="symptom" type="checkbox" value="Pinchazo"/>
+<span class="inline-block px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-secondary font-label-sm text-label-sm uppercase peer-checked:bg-primary-container peer-checked:text-on-primary-container transition-all">
+                  Pinchazo / Neumático
+                </span>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="symptom" type="checkbox" value="Bateria"/>
+<span class="inline-block px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-secondary font-label-sm text-label-sm uppercase peer-checked:bg-primary-container peer-checked:text-on-primary-container transition-all">
+                  Poca Autonomía
+                </span>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="symptom" type="checkbox" value="Holgura"/>
+<span class="inline-block px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-secondary font-label-sm text-label-sm uppercase peer-checked:bg-primary-container peer-checked:text-on-primary-container transition-all">
+                  Holgura en mástil
+                </span>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="symptom" type="checkbox" value="Revision"/>
+<span class="inline-block px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-secondary font-label-sm text-label-sm uppercase peer-checked:bg-primary-container peer-checked:text-on-primary-container transition-all">
+                  Revisión General 0€
+                </span>
+</label>
+</div>
+</div>
+<!-- RGPD Mandatory Checkbox -->
+<div class="flex items-start gap-space-sm pt-space-xs">
+<input class="mt-1 w-5 h-5 rounded bg-surface-container-lowest accent-primary-container cursor-pointer" id="lead-rgpd" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-secondary cursor-pointer" for="lead-rgpd">
+              Acepto la <a class="text-primary underline" href="#">política de privacidad</a> y el tratamiento de mis datos para gestionar la cita y el diagnóstico gratuito.
+            </label>
+</div>
+<!-- Submit Button -->
+<div class="pt-space-sm">
+<button class="w-full flex items-center justify-center gap-space-sm bg-primary-container hover:bg-inverse-primary text-on-primary-container hover:text-on-surface font-label-lg text-label-lg uppercase tracking-wider py-space-md rounded-lg shadow-[0_0_24px_rgba(255,84,81,0.4)] transition-all" id="submit-btn" type="submit">
+<span class="material-symbols-outlined text-[22px]">calendar_month</span>
+<span>Solicitar revisión gratuita ahora</span>
+</button>
+</div>
+<!-- Success Alert Placeholder -->
+<div class="hidden p-space-md rounded-lg bg-tertiary-container/30 text-tertiary-fixed font-body-md text-body-md text-center mt-space-sm" id="form-success">
+            ✓ ¡Solicitud recibida! Nuestro jefe de taller te contactará por WhatsApp en menos de 30 minutos para confirmar la hora de entrada.
+          </div>
+<!-- Privacy Footer Note -->
+<div class="text-center pt-space-xs">
+<p class="font-body-sm text-body-sm text-secondary flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary-container">lock</span>
+<span>Tus datos están protegidos bajo la normativa europea de protección de datos (RGPD). No hacemos spam.</span>
+</p>
+</div>
+</form>
+</div>
+<!-- Workshop Direct Location Banner -->
+<div class="mt-space-xl bg-surface-container-high p-space-md rounded-xl flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">store</span>
+</div>
+<div>
+<span class="font-label-md text-label-md uppercase text-on-surface font-bold block">Taller Físico en Málaga</span>
+<span class="font-body-sm text-body-sm text-secondary">Calle Carretería, 48 · 29008 Málaga Centro (Junto a Tribuna de los Pobres)</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<a class="inline-flex items-center gap-1 bg-surface-variant hover:bg-surface-bright text-on-surface px-space-md py-space-xs rounded-lg font-label-sm text-label-sm uppercase transition-colors" href="tel:+34951884210">
+<span class="material-symbols-outlined text-[16px]">call</span>
+<span>951 88 42 10</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Sticky Bottom Bar for Mobile Conversion Quick Access -->
+<div class="md:hidden fixed bottom-4 left-4 right-4 z-40">
+<a class="w-full flex items-center justify-between bg-primary-container text-on-primary-container font-label-md text-label-md uppercase px-space-md py-space-sm rounded-xl shadow-[0_4px_24px_rgba(255,84,81,0.6)] font-bold" href="#formulario-reserva">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[20px]">bolt</span>
+<span>Revisión Gratis 0€</span>
+</span>
+<span class="flex items-center gap-1">
+<span>Pedir Cita</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</span>
+</a>
+</div>
+<script>
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submit-btn');
+      const success = document.getElementById('form-success');
+      
+      btn.disabled = true;
+      btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">sync</span> Procesando reserva...';
+      
+      setTimeout(() => {
+        btn.classList.add('hidden');
+        success.classList.remove('hidden');
+      }, 700);
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest py-space-2xl text-on-surface-variant"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-space-2xl"><div><div class="flex items-center gap-space-sm mb-space-md"><img alt="Málaga Scooter Workshop Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAVFPF1bLEY5KLCOM-G6gotGCnphbCUWxHvP37mOugwSZbsNVlnW5_7b4K-RtY4XGD5aNtSlwLivFG2b1Oj90egrAJeniFXdtjLGVpm5SUm4IjPT80fYcalE7IL3Ot8nBRNtr_o7r-yDM22MEW4DID8gmf9CQnBKW8_6ryorzuoep2I7TnGcDTc-Mi9DLmsiRnyQWoSDNm5Q7RKVNu0ZNEUKrI25drvQ52-6EgPz37c"/><span class="font-headline-sm text-headline-sm uppercase text-on-surface">Málaga Scooter</span></div><p class="font-body-sm text-body-sm text-secondary mb-space-md">Especialistas mecánicos en patinetes eléctricos de alta y media gama. Reparación de baterías, centralitas y puesta a punto certificada.</p><div class="inline-flex items-center gap-space-xs bg-surface-container px-space-md py-space-xs rounded-lg text-tertiary-fixed font-label-sm text-label-sm"><span>★ 4.9 en Google Reviews</span></div></div><div><h4 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-space-md">Horario de Taller</h4><p class="font-body-md text-body-md text-on-surface font-medium">Lunes a Viernes</p><p class="font-body-sm text-body-sm text-secondary mb-space-sm">09:00 - 19:30 (Ininterrumpido)</p><p class="font-body-md text-body-md text-on-surface font-medium">Sábados</p><p class="font-body-sm text-body-sm text-secondary">10:00 - 14:00 (Solo entregas y urgencias)</p></div><div><h4 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-space-md">Ubicación &amp; Contacto</h4><p class="font-body-md text-body-md text-on-surface">Calle Carretería, 48</p><p class="font-body-sm text-body-sm text-secondary mb-space-sm">29008 Málaga Centro, España</p><p class="font-body-sm text-body-sm text-secondary">Teléfono: +34 951 88 42 10</p><p class="font-body-sm text-body-sm text-secondary">WhatsApp: +34 611 40 92 88</p></div><div><h4 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-space-md">Garantía de Servicio</h4><p class="font-body-sm text-body-sm text-secondary mb-space-md">Todas las intervenciones incluyen 6 meses de garantía por escrito en piezas originales y mano de obra.</p><div class="bg-surface-container-high p-space-md rounded-lg flex items-center justify-between"><div class="flex flex-col"><span class="font-label-md text-label-md uppercase text-on-surface">Google Maps</span><span class="font-body-sm text-body-sm text-primary">Cómo llegar al taller</span></div><span class="material-symbols-outlined text-primary">directions</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-secondary"><p>© 2025 Málaga Scooter Workshop S.L. Todos los derechos reservados.</p><div class="flex items-center gap-space-lg flex-wrap font-label-sm text-label-sm uppercase"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="aviso-legal" href="#">Aviso Legal</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="politica-de-privacidad" href="#">Política de Privacidad</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="rgpd" href="#">RGPD &amp; Cookies</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="condiciones-de-reparacion" href="#">Términos de Servicio</a></div></div></div></footer></body></html>
